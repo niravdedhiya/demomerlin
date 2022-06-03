@@ -1,0 +1,43 @@
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+  
+#content-wrap {
+    padding-bottom: 2.5rem;    
+}
+.content {
+    max-width: 500px;
+    margin: auto;
+  }
+.fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size:1em;
+    border: 3px solid black;
+    color: black;
+    text-align:center;
+    padding:10px;
+    background-color:#fdc305;
+}
+#logo {
+    display: inline-block;
+    float: center;
+    height: 160px;
+    width: auto; 
+}
+
+body  {  
+    margin: 0;  
+    background-color:#050505f3;  
+    font-family: 'Arial';  
+    padding:10px;
+    padding-bottom:150px;   /* Height of the footer */
+     
+}  
+
+a {
+  color: black;
+}
